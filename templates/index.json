@@ -1,15 +1,40 @@
 {
   "sections": {
-    "hero-1": {
-      "type": "hero",
+    "c576901f-4448-45ac-b7ca-89d429f04faa": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21060377182529__c576901f-4448-45ac-b7ca-89d429f04faa-image-1": {
+          "type": "image",
+          "settings": {
+            "alignment": "center center",
+            "slide_title": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--21060377182529__c576901f-4448-45ac-b7ca-89d429f04faa-image-2": {
+          "type": "image",
+          "settings": {
+            "alignment": "center center",
+            "slide_title": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21060377182529__c576901f-4448-45ac-b7ca-89d429f04faa-image-1",
+        "template--21060377182529__c576901f-4448-45ac-b7ca-89d429f04faa-image-2"
+      ],
       "settings": {
-        "hero_size": "large",
-        "text_size": "large"
-      }
-    },
-    "feature-row": {
-      "type": "feature-row",
-      "settings": {
+        "slideshow_height": "adapt",
+        "text_size": "medium",
+        "text_alignment": "center center",
+        "show_overlay": true,
+        "autorotate": true,
+        "autorotate_speed": 5
       }
     },
     "feature-columns": {
@@ -18,16 +43,31 @@
         "feature-columns-0": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "feature-columns-1": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "feature-columns-2": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
@@ -37,19 +77,32 @@
         "feature-columns-2"
       ],
       "settings": {
-        "title": ""
+        "title": "",
+        "align_text": "left"
       }
     },
     "collection": {
       "type": "collection",
       "settings": {
-        "grid": 4
+        "title": "Featured collection",
+        "collection": "",
+        "grid": 4,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
       }
     },
     "hero-2": {
       "type": "hero",
       "settings": {
-        "text_size": "large"
+        "alignment": "center",
+        "hero_layout": "full_width",
+        "hero_size": "medium",
+        "text_size": "large",
+        "title": "Image with text overlay",
+        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "quotes": {
@@ -58,16 +111,22 @@
         "quotes-0": {
           "type": "quote",
           "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
           }
         },
         "quotes-1": {
           "type": "quote",
           "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
           }
         },
         "quotes-2": {
           "type": "quote",
           "settings": {
+            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
           }
         }
       },
@@ -86,16 +145,25 @@
         "image-bar-0": {
           "type": "image",
           "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
           }
         },
         "image-bar-1": {
           "type": "image",
           "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
           }
         },
         "image-bar-2": {
           "type": "image",
           "settings": {
+            "alignment": "center",
+            "link": "",
+            "cta_label": ""
           }
         }
       },
@@ -105,12 +173,12 @@
         "image-bar-2"
       ],
       "settings": {
+        "section_height": "medium"
       }
     }
   },
   "order": [
-    "hero-1",
-    "feature-row",
+    "c576901f-4448-45ac-b7ca-89d429f04faa",
     "feature-columns",
     "collection",
     "hero-2",
