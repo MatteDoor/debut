@@ -101,8 +101,8 @@
     "collection": {
       "type": "collection",
       "settings": {
-        "title": "Featured collection",
-        "collection": "",
+        "title": "Best Sellers",
+        "collection": "best-seller",
         "grid": 4,
         "rows": 2,
         "show_vendor": false,
