@@ -26,7 +26,11 @@
       <div class="list-view-item__title" aria-hidden="true">
         <span class="product-card__title">{{ product.title }}</span>
       </div>
-      {% if show_vendor %}
+      
+
+    <div class="AirReviews-Widget AirReviews-Widget--Stars" data-review-avg="{{ product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ product.metafields.air_reviews_product.review_count }}"></div>
+
+{% if show_vendor %}
         <div class="list-view-item__vendor">{{ product.vendor }}</div>
       {% endif %}
     </div>
