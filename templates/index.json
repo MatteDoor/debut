@@ -17,11 +17,12 @@
         "template--21060377182529__c576901f-4448-45ac-b7ca-89d429f04faa-image-2": {
           "type": "image",
           "settings": {
-            "alignment": "center center",
-            "slide_title": "Image slide",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/Wood_Sign_Banner_5ea5eeb1-1526-4933-a2ec-50f9c543b756.jpg",
+            "alignment": "center top",
+            "slide_title": "Wood Sign",
+            "subheading": "Crafting Dreams in Wood.",
+            "button_label": "Shop Now!",
+            "button_link": "shopify:\/\/collections\/wood-sign"
           }
         }
       },
