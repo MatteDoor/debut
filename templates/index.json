@@ -129,29 +129,13 @@
         "quotes-0": {
           "type": "quote",
           "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
-          }
-        },
-        "quotes-1": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
-          }
-        },
-        "quotes-2": {
-          "type": "quote",
-          "settings": {
-            "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "author": "Author's name"
+            "quote": "<h4>MatteDoor: Handmade Home Decor<\/h4>",
+            "author": "Welcome to our online store! Discover unique doormats, wall decorations, and signs to add charm to your spaces. Elevate your home's personality with our handpicked collection. Find the perfect blend of style and functionality today."
           }
         }
       },
       "block_order": [
-        "quotes-0",
-        "quotes-1",
-        "quotes-2"
+        "quotes-0"
       ],
       "settings": {
         "title": ""
