@@ -5,7 +5,7 @@
     "type_base_font": "oswald_n4",
     "type_base_size": 20,
     "predictive_search_show_price": true,
-    "favicon": "shopify:\/\/shop_images\/Profile_512px.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Shopify_Logo.png",
     "sections": {
       "header": {
         "type": "header",
