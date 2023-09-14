@@ -10,7 +10,7 @@
     "predictive_search_show_price": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/Shopify_Logo.png",
     "checkout_logo_position": "center",
-    "checkout_logo_size": "large",
+    "checkout_logo_size": "medium",
     "sections": {
       "header": {
         "type": "header",
