@@ -224,6 +224,10 @@
                     {%- if section.settings.enable_payment_button %} product-form__item--payment-button {%- endif -%}
                     {%- if product.has_only_default_variant %} product-form__item--no-variants {%- endif -%}"
                   >
+                <p class="line-item-property__field">
+  <label for="add-your-personalization">Add Your Personalization </label>
+  <textarea required class="required" id="add-your-personalization" name="properties[Add Your Personalization ]"></textarea>
+</p>
                     <button type="submit" name="add"
                       {% unless current_variant.available %} aria-disabled="true"{% endunless %}
                       aria-label="{% unless current_variant.available %}{{ 'products.product.sold_out' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endunless %}"
