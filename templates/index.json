@@ -6,11 +6,12 @@
         "template--21060377182529__c576901f-4448-45ac-b7ca-89d429f04faa-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Doormat_Banner.jpg",
             "alignment": "center center",
-            "slide_title": "Image slide",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "",
-            "button_link": ""
+            "slide_title": "DOORMAT",
+            "subheading": "Mats for Every Home, Every Style.",
+            "button_label": "Shop Now!",
+            "button_link": "shopify:\/\/collections\/doormats"
           }
         },
         "template--21060377182529__c576901f-4448-45ac-b7ca-89d429f04faa-image-2": {
