@@ -109,36 +109,13 @@
         "show_view_all": false
       }
     },
-    "hero-2": {
-      "type": "hero",
-      "disabled": true,
+    "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc": {
+      "type": "rich-text",
       "settings": {
-        "alignment": "center",
-        "hero_layout": "full_width",
-        "hero_size": "medium",
-        "text_size": "large",
-        "title": "Image with text overlay",
-        "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
-    "quotes": {
-      "type": "quotes",
-      "blocks": {
-        "quotes-0": {
-          "type": "quote",
-          "settings": {
-            "quote": "<h3>MatteDoor: Handmade Home Decor<\/h3>",
-            "author": "Welcome to our online store! Discover unique doormats, wall decorations, and wood signs to add charm to your spaces. Elevate your home's personality with our handpicked collection. Find the perfect blend of style and functionality today."
-          }
-        }
-      },
-      "block_order": [
-        "quotes-0"
-      ],
-      "settings": {
-        "title": ""
+        "full_width": false,
+        "section_title": "MatteDoor: Handmade Home Decor",
+        "text": "<p>Welcome to our online store! Discover unique doormats, wall decorations, and signs to add charm to your spaces. Elevate your home's personality with our handpicked collection. Find the perfect blend of style and functionality today.<\/p>",
+        "text_size": "small"
       }
     },
     "image-bar": {
@@ -184,8 +161,7 @@
     "c576901f-4448-45ac-b7ca-89d429f04faa",
     "feature-columns",
     "collection",
-    "hero-2",
-    "quotes",
+    "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc",
     "image-bar"
   ]
 }
