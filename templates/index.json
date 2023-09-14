@@ -111,6 +111,7 @@
     },
     "hero-2": {
       "type": "hero",
+      "disabled": true,
       "settings": {
         "alignment": "center",
         "hero_layout": "full_width",
@@ -189,6 +190,7 @@
         "image-bar-1",
         "image-bar-2"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "medium"
       }
