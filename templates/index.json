@@ -94,8 +94,8 @@
         "feature-columns-2"
       ],
       "settings": {
-        "title": "",
-        "align_text": "left"
+        "title": "Categories",
+        "align_text": "center"
       }
     },
     "collection": {
