@@ -93,6 +93,9 @@
         "feature-columns-1",
         "feature-columns-2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Collections",
         "align_text": "center"
@@ -106,7 +109,7 @@
         "grid": 4,
         "rows": 2,
         "show_vendor": false,
-        "show_view_all": false
+        "show_view_all": true
       }
     },
     "08f0939e-3a29-4f1f-b924-240defee0e7b": {
