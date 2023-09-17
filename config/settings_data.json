@@ -19,7 +19,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "h2 {font-size: 32px; }"
+
         ],
         "settings": {
           "align_logo": "left",
