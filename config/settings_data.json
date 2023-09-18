@@ -161,7 +161,7 @@
           "show_payment_icons": true,
           "color_footer_bg": "#d9d9d9",
           "color_footer_text": "#333232",
-          "show_currency_selector": true,
+          "show_currency_selector": false,
           "show_locale_selector": true
         }
       }
