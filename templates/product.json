@@ -13,6 +13,11 @@
           "settings": {
           }
         },
+        "9d41dd5d-a085-4563-b5b2-7248118e8c75": {
+          "type": "shopify:\/\/apps\/air-reviews-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -32,6 +37,7 @@
       "block_order": [
         "title",
         "price",
+        "9d41dd5d-a085-4563-b5b2-7248118e8c75",
         "buttons",
         "description",
         "share"
