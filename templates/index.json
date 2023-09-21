@@ -205,39 +205,6 @@
         "title": "Collection list",
         "grid": 3
       }
-    },
-    "4dfee10f-646c-40a7-9fc1-91e128582eef": {
-      "type": "logo-bar",
-      "blocks": {
-        "template--21060377182529__4dfee10f-646c-40a7-9fc1-91e128582eef-logo_image-1": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/il_fullxfull.3841339968_baz3_74146e5d-9a65-446d-9d93-3972ddbf8904.jpg",
-            "link": "shopify:\/\/collections\/doormats"
-          }
-        },
-        "template--21060377182529__4dfee10f-646c-40a7-9fc1-91e128582eef-logo_image-2": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/il_fullxfull.4736397554_f92z.jpg",
-            "link": "shopify:\/\/collections\/wood-sign"
-          }
-        },
-        "template--21060377182529__4dfee10f-646c-40a7-9fc1-91e128582eef-logo_image-3": {
-          "type": "logo_image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21060377182529__4dfee10f-646c-40a7-9fc1-91e128582eef-logo_image-1",
-        "template--21060377182529__4dfee10f-646c-40a7-9fc1-91e128582eef-logo_image-2",
-        "template--21060377182529__4dfee10f-646c-40a7-9fc1-91e128582eef-logo_image-3"
-      ],
-      "settings": {
-        "title": "Logo list"
-      }
     }
   },
   "order": [
@@ -247,7 +214,6 @@
     "collection",
     "08f0939e-3a29-4f1f-b924-240defee0e7b",
     "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc",
-    "85c34915-ddd4-4eca-85f8-27bd4a2007fc",
-    "4dfee10f-646c-40a7-9fc1-91e128582eef"
+    "85c34915-ddd4-4eca-85f8-27bd4a2007fc"
   ]
 }
