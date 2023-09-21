@@ -131,38 +131,6 @@
         "text": "<p>Welcome to our online store! Discover unique doormats, wall decorations, and wood signs to add charm to your spaces. Elevate your home's personality with our handpicked collection. Find the perfect blend of style and functionality today.<\/p>",
         "text_size": "large"
       }
-    },
-    "45c5cc31-e2f7-4330-9d60-4daec364088e": {
-      "type": "collection-list",
-      "blocks": {
-        "template--21060377182529__45c5cc31-e2f7-4330-9d60-4daec364088e-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "doormats"
-          }
-        },
-        "template--21060377182529__45c5cc31-e2f7-4330-9d60-4daec364088e-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "wood-sign"
-          }
-        },
-        "template--21060377182529__45c5cc31-e2f7-4330-9d60-4daec364088e-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "wall-art"
-          }
-        }
-      },
-      "block_order": [
-        "template--21060377182529__45c5cc31-e2f7-4330-9d60-4daec364088e-featured_collection-1",
-        "template--21060377182529__45c5cc31-e2f7-4330-9d60-4daec364088e-featured_collection-2",
-        "template--21060377182529__45c5cc31-e2f7-4330-9d60-4daec364088e-featured_collection-3"
-      ],
-      "settings": {
-        "title": "Collection list",
-        "grid": 3
-      }
     }
   },
   "order": [
@@ -170,7 +138,6 @@
     "feature-columns",
     "collection",
     "08f0939e-3a29-4f1f-b924-240defee0e7b",
-    "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc",
-    "45c5cc31-e2f7-4330-9d60-4daec364088e"
+    "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc"
   ]
 }
