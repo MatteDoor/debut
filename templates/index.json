@@ -148,7 +148,7 @@
         "title": "Best Seller",
         "collection": "best-seller",
         "grid": 3,
-        "rows": 3,
+        "rows": 4,
         "show_vendor": false,
         "show_view_all": true
       }
