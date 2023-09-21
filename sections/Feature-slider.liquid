@@ -6,9 +6,6 @@
 * Plugin, licensing and documentation at https://flickity.metafizzy.co/
 {% endcomment %}
 
-{% assign collection_main = collections[section.settings.collection_main] %}
-{% assign collection_limit = section.settings.collection_limit %}
-
 {% assign cell_align = section.settings.cell_align %}
 {% assign wrap_around = section.settings.wrap_around %}
 {% assign img_width = section.settings.img_width | append: 'x' %}
@@ -28,53 +25,15 @@ data-flickity='{
 }'>
 
 {% for product in collection_main.products limit: collection_limit %}
-{%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- continue -%}{%- endif -%}
-{% assign first_variant = product.selected_or_first_available_variant %}
-{% assign featured_img_src = first_variant.featured_img.src | default: product.featured_image.src %}
-{% assign price = first_variant.price %}
-{% assign compare_at_price = first_variant.compare_at_price %}
 <div class="carousel__cell" style="width:{{ section.settings.cell_width }};margin-right:{{ section.settings.mr }}px">
-<a href="{{ product.url }}">
-<img src="{{ featured_img_src | img_url: img_width }}" alt="{{ product.featured_img.alt }}" />
-</a>
-<a href="{{ product.url }}">
-<h5>{{ product.title }}</h5>
-</a>
-{% if compare_at_price > price %}
-<s class="product__compare-at-price">{{ compare_at_price | money }}</s>
-<p class="product__product-price">{{ price | money }}</p>
-{% else %}
-<p class="product__product-price">{{ price | money }}</p>
-{% endif %}
+
 </div>
 {% endfor %}
-{% comment %}
-{% for block in section.blocks %}
-{% assign block_product = all_products[block.settings.featured_product] %}
-{% assign block_first_variant = block_product.selected_or_first_available_variant %}
-{% assign featured_img_src = block_first_variant.featured_img.src | default: block_product.featured_image.src %}
-{% assign price = block_first_variant.price %}
-{% assign compare_at_price = block_first_variant.compare_at_price %}
-<div class="carousel__cell" style="width:{{ section.settings.cell_width }};margin-right:{{ section.settings.mr }}px">
-{% if block.settings.featured_product != blank %}
-<a href="{{ block_product.url }}">
-<img src="{{ featured_img_src | img_url: img_width }}" alt="{{ block_product.featured_img.alt }}" />
-</a>
-{% else %}
-{{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
-{% endif %}
-<a href="{{ block_product.url }}">
-<h5>{{ block_product.title }}</h5>
-</a>
-{% if compare_at_price > price %}
-<s class="block-product__compare-at-price">{{ compare_at_price | money }}</s>
-<p class="block-product__product-price">{{ price | money }}</p>
-{% else %}
-<p class="block-product__product-price">{{ price | money }}</p>
-{% endif %}
-</div>
-{% endfor %}
-{% endcomment %}
+{%- for block in section.blocks -%}
+  <div class="carousel__cell" style="width:{{ section.settings.cell_width }};margin-right:{{ section.settings.mr }}px">
+    {% render 'card-collection', card_collection: block.settings.collection , media_aspect_ratio: section.settings.image_ratio, columns: 1 %}
+  </div>
+{%- endfor -%}
 </div>
 </div>
 </div>
@@ -83,21 +42,6 @@ data-flickity='{
 {
 "name": "Collection Slider",
 "settings": [
-{
-"type": "collection",
-"id": "collection_main",
-"label": "Choose a Collection"
-},
-{
-"type": "range",
-"id": "collection_limit",
-"min": 2,
-"max": 50,
-"step": 1,
-"unit": ".",
-"label": "How many products to show",
-"default": 4
-},
 {
 "type": "color",
 "id": "bg",
@@ -110,14 +54,25 @@ data-flickity='{
 "default": "Featured Collection Slider"
 },
 {
-"type": "range",
-"id": "img_width",
-"min": 200,
-"max": 600,
-"step": 5,
-"unit": "px",
-"label": "Image Width",
-"default": 200
+  "type": "select",
+  "id": "image_ratio",
+  "options": [
+    {
+      "value": "adapt",
+      "label": "t:sections.collection-list.settings.image_ratio.options__1.label"
+    },
+    {
+      "value": "portrait",
+      "label": "t:sections.collection-list.settings.image_ratio.options__2.label"
+    },
+    {
+      "value": "square",
+      "label": "t:sections.collection-list.settings.image_ratio.options__3.label"
+    }
+  ],
+  "default": "square",
+  "label": "t:sections.collection-list.settings.image_ratio.label",
+  "info": "t:sections.collection-list.settings.image_ratio.info"
 },
 {
 "type": "select",
@@ -196,6 +151,19 @@ data-flickity='{
 "default": 16,
 "info": "Save page to see changes."
 }
+],
+"blocks": [
+  {
+    "type": "collection",
+    "name": "Collection",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Select collection"
+      }
+    ]
+  }
 ],
 "presets": [
 {
