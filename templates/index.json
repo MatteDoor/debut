@@ -147,8 +147,8 @@
       "settings": {
         "title": "Best Seller",
         "collection": "best-seller",
-        "grid": 4,
-        "rows": 2,
+        "grid": 3,
+        "rows": 3,
         "show_vendor": false,
         "show_view_all": true
       }
