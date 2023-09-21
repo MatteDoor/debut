@@ -6157,7 +6157,7 @@ hr {
   visibility: hidden; }
 
 .image-bar {
-  overflow: hidden; }
+  overflow: auto; }
   @media only screen and (max-width: 749px) {
     .image-bar {
       max-width: 400px;
