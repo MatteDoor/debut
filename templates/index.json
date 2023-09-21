@@ -144,7 +144,7 @@
     "collection": {
       "type": "collection",
       "settings": {
-        "title": "Best Sellers",
+        "title": "Best Seller",
         "collection": "best-seller",
         "grid": 4,
         "rows": 2,
