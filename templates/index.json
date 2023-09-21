@@ -51,6 +51,46 @@
         "autorotate_speed": 5
       }
     },
+    "bab32bdf-210f-448b-aec3-de5727a049bd": {
+      "type": "image-bar",
+      "blocks": {
+        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/il_fullxfull.3841339958_kbyp_55d0ba93-dbc9-48a0-8a5a-79382d940df8.jpg",
+            "alignment": "center",
+            "link": "shopify:\/\/collections\/doormats",
+            "cta_label": "Doormats"
+          }
+        },
+        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/il_fullxfull.4736397554_f92z.jpg",
+            "alignment": "center",
+            "link": "shopify:\/\/collections\/wood-sign",
+            "cta_label": "Wood Signs"
+          }
+        },
+        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sun_Moon_1.jpg",
+            "alignment": "top",
+            "link": "shopify:\/\/collections\/wall-art",
+            "cta_label": "Wall Arts"
+          }
+        }
+      },
+      "block_order": [
+        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-1",
+        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-2",
+        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-3"
+      ],
+      "settings": {
+        "section_height": "small"
+      }
+    },
     "feature-columns": {
       "type": "feature-columns",
       "blocks": {
@@ -93,6 +133,7 @@
         "feature-columns-1",
         "feature-columns-2"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -159,59 +200,20 @@
         "template--21060377182529__85c34915-ddd4-4eca-85f8-27bd4a2007fc-featured_collection-2",
         "template--21060377182529__85c34915-ddd4-4eca-85f8-27bd4a2007fc-featured_collection-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Collection list",
         "grid": 3
-      }
-    },
-    "bab32bdf-210f-448b-aec3-de5727a049bd": {
-      "type": "image-bar",
-      "blocks": {
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/il_fullxfull.3841339958_kbyp_55d0ba93-dbc9-48a0-8a5a-79382d940df8.jpg",
-            "alignment": "center",
-            "link": "shopify:\/\/collections\/doormats",
-            "cta_label": "Doormats"
-          }
-        },
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/il_fullxfull.4736397554_f92z.jpg",
-            "alignment": "center",
-            "link": "shopify:\/\/collections\/wood-sign",
-            "cta_label": "Wood Signs"
-          }
-        },
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sun_Moon_1.jpg",
-            "alignment": "top",
-            "link": "shopify:\/\/collections\/wall-art",
-            "cta_label": "Wall Arts"
-          }
-        }
-      },
-      "block_order": [
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-1",
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-2",
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-3"
-      ],
-      "settings": {
-        "section_height": "small"
       }
     }
   },
   "order": [
     "c576901f-4448-45ac-b7ca-89d429f04faa",
+    "bab32bdf-210f-448b-aec3-de5727a049bd",
     "feature-columns",
     "collection",
     "08f0939e-3a29-4f1f-b924-240defee0e7b",
     "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc",
-    "85c34915-ddd4-4eca-85f8-27bd4a2007fc",
-    "bab32bdf-210f-448b-aec3-de5727a049bd"
+    "85c34915-ddd4-4eca-85f8-27bd4a2007fc"
   ]
 }
