@@ -189,7 +189,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Sun_Moon_1.jpg",
-            "alignment": "center",
+            "alignment": "top",
             "link": "shopify:\/\/collections\/wall-art",
             "cta_label": "Wall Arts"
           }
