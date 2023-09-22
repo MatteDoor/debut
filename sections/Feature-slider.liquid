@@ -64,7 +64,7 @@ data-flickity='{
 {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
 {% endif %}
 <a href="{{ block_product.url }}">
-<h5>{{ block_product.title }}</h5>
+<h2>{{ block_product.title }}</h2>
 </a>
 {% if compare_at_price > price %}
 <s class="block-product__compare-at-price">{{ compare_at_price | money }}</s>
