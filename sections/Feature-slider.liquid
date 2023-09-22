@@ -38,7 +38,7 @@ data-flickity='{
 <img src="{{ featured_img_src | img_url: img_width }}" alt="{{ product.featured_img.alt }}" />
 </a>
 <a href="{{ product.url }}">
-<h5>{{ product.title }}</h5>
+<h2>{{ product.title }}</h2>
 </a>
 {% if compare_at_price > price %}
 <s class="product__compare-at-price">{{ compare_at_price | money }}</s>
