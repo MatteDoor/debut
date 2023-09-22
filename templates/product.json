@@ -13,6 +13,11 @@
           "settings": {
           }
         },
+        "67107b70-bb4b-4970-8f29-7816ccc83de5": {
+          "type": "shopify:\/\/apps\/air-reviews-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -27,20 +32,15 @@
           "type": "share",
           "settings": {
           }
-        },
-        "67107b70-bb4b-4970-8f29-7816ccc83de5": {
-          "type": "shopify:\/\/apps\/air-reviews-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "title",
         "price",
+        "67107b70-bb4b-4970-8f29-7816ccc83de5",
         "buttons",
         "description",
-        "share",
-        "67107b70-bb4b-4970-8f29-7816ccc83de5"
+        "share"
       ],
       "settings": {
         "show_quantity_selector": false,
