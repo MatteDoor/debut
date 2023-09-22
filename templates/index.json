@@ -165,7 +165,7 @@
         "title_mb": 48,
         "cell_width": "25%",
         "wrap_around": "true",
-        "autoPlay": "false",
+        "autoPlay": "true",
         "mr": 10
       }
     },
