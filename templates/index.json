@@ -51,108 +51,6 @@
         "autorotate_speed": 5
       }
     },
-    "bab32bdf-210f-448b-aec3-de5727a049bd": {
-      "type": "image-bar",
-      "blocks": {
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/il_fullxfull.3841339958_kbyp_55d0ba93-dbc9-48a0-8a5a-79382d940df8.jpg",
-            "alignment": "center",
-            "link": "shopify:\/\/collections\/doormats",
-            "cta_label": "Doormats"
-          }
-        },
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/il_fullxfull.4736397554_f92z.jpg",
-            "alignment": "center",
-            "link": "shopify:\/\/collections\/wood-sign",
-            "cta_label": "Wood Signs"
-          }
-        },
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sun_Moon_1.jpg",
-            "alignment": "top",
-            "link": "shopify:\/\/collections\/wall-art",
-            "cta_label": "Wall Arts"
-          }
-        }
-      },
-      "block_order": [
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-1",
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-2",
-        "template--21060377182529__bab32bdf-210f-448b-aec3-de5727a049bd-image-3"
-      ],
-      "settings": {
-        "section_height": "small"
-      }
-    },
-    "feature-columns": {
-      "type": "feature-columns",
-      "blocks": {
-        "feature-columns-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/il_fullxfull.3841339968_baz3_74146e5d-9a65-446d-9d93-3972ddbf8904.jpg",
-            "title": "",
-            "text": "",
-            "button_label": "Doormat",
-            "button_link": "shopify:\/\/collections\/doormats"
-          }
-        },
-        "feature-columns-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/5_Koyu_M_Beyaz.jpg",
-            "title": "",
-            "text": "",
-            "button_label": "Wood Sign",
-            "button_link": "shopify:\/\/collections\/wood-sign"
-          }
-        },
-        "feature-columns-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Sun_Moon_1.jpg",
-            "title": "",
-            "text": "",
-            "button_label": "WALL ART",
-            "button_link": "shopify:\/\/collections\/wall-art"
-          }
-        }
-      },
-      "block_order": [
-        "feature-columns-0",
-        "feature-columns-1",
-        "feature-columns-2"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Collections",
-        "align_text": "center"
-      }
-    },
-    "collection": {
-      "type": "collection",
-      "settings": {
-        "title": "Best Seller",
-        "collection": "best-seller",
-        "grid": 3,
-        "rows": 4,
-        "show_vendor": false,
-        "show_view_all": true
-      }
-    },
     "ee852c41-4326-43ba-a803-b2751e9486bd": {
       "type": "Feature-slider",
       "settings": {
@@ -199,6 +97,17 @@
         "wrap_around": "true",
         "autoPlay": "true",
         "mr": 10
+      }
+    },
+    "collection": {
+      "type": "collection",
+      "settings": {
+        "title": "Best Seller",
+        "collection": "best-seller",
+        "grid": 3,
+        "rows": 4,
+        "show_vendor": false,
+        "show_view_all": true
       }
     },
     "08f0939e-3a29-4f1f-b924-240defee0e7b": {
@@ -257,12 +166,10 @@
   },
   "order": [
     "c576901f-4448-45ac-b7ca-89d429f04faa",
-    "bab32bdf-210f-448b-aec3-de5727a049bd",
-    "feature-columns",
-    "collection",
     "ee852c41-4326-43ba-a803-b2751e9486bd",
     "7e1a56f0-a245-4dab-aa82-8fd595ea4270",
     "4360974d-c05b-4fa3-a0db-261d9b1fc548",
+    "collection",
     "08f0939e-3a29-4f1f-b924-240defee0e7b",
     "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc",
     "85c34915-ddd4-4eca-85f8-27bd4a2007fc"
