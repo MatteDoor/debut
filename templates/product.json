@@ -13,8 +13,8 @@
           "settings": {
           }
         },
-        "67107b70-bb4b-4970-8f29-7816ccc83de5": {
-          "type": "shopify:\/\/apps\/air-reviews-product-reviews\/blocks\/app-summary-block\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+        "e08ae3db-fae4-4c74-bda4-36e82e70d44a": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -37,7 +37,7 @@
       "block_order": [
         "title",
         "price",
-        "67107b70-bb4b-4970-8f29-7816ccc83de5",
+        "e08ae3db-fae4-4c74-bda4-36e82e70d44a",
         "buttons",
         "description",
         "share"
