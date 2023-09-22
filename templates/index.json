@@ -165,6 +165,7 @@
         "title_mb": 48,
         "cell_width": "25%",
         "wrap_around": "true",
+        "autoPlay": "false",
         "mr": 10
       }
     },
@@ -180,6 +181,7 @@
         "title_mb": 50,
         "cell_width": "25%",
         "wrap_around": "true",
+        "autoPlay": "true",
         "mr": 10
       }
     },
@@ -195,6 +197,7 @@
         "title_mb": 68,
         "cell_width": "25%",
         "wrap_around": "true",
+        "autoPlay": "true",
         "mr": 10
       }
     },
