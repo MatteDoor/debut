@@ -210,7 +210,7 @@
       "type": "Feature-slider",
       "settings": {
         "collection_main": "best-seller",
-        "collection_limit": 4,
+        "collection_limit": 50,
         "bg": "",
         "title": "Featured Collection Slider",
         "img_width": 200,
