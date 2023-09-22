@@ -157,15 +157,15 @@
       "type": "Feature-slider",
       "settings": {
         "collection_main": "doormats",
-        "collection_limit": 4,
+        "collection_limit": 50,
         "bg": "",
-        "title": "Featured Collection Slider",
-        "img_width": 200,
+        "title": "DOORMATS",
+        "img_width": 300,
         "cell_align": "center",
-        "title_mb": 48,
+        "title_mb": 30,
         "cell_width": "25%",
         "wrap_around": "true",
-        "mr": 16
+        "mr": 9
       }
     },
     "08f0939e-3a29-4f1f-b924-240defee0e7b": {
