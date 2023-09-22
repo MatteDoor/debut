@@ -205,21 +205,6 @@
         "title": "Collection",
         "grid": 3
       }
-    },
-    "2120edae-acd6-436f-a4b2-362d4c05fce4": {
-      "type": "Feature-slider",
-      "settings": {
-        "collection_main": "best-seller",
-        "collection_limit": 50,
-        "bg": "",
-        "title": "Featured Collection Slider",
-        "img_width": 300,
-        "cell_align": "center",
-        "title_mb": 48,
-        "cell_width": "25%",
-        "wrap_around": "false",
-        "mr": 16
-      }
     }
   },
   "order": [
@@ -229,7 +214,6 @@
     "collection",
     "08f0939e-3a29-4f1f-b924-240defee0e7b",
     "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc",
-    "85c34915-ddd4-4eca-85f8-27bd4a2007fc",
-    "2120edae-acd6-436f-a4b2-362d4c05fce4"
+    "85c34915-ddd4-4eca-85f8-27bd4a2007fc"
   ]
 }
