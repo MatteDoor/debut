@@ -189,7 +189,7 @@
       "type": "Feature-slider",
       "settings": {
         "collection_main": "wall-art",
-        "collection_limit": 4,
+        "collection_limit": 50,
         "bg": "",
         "title": "WALL DECOR",
         "img_width": 600,
