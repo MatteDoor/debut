@@ -172,7 +172,7 @@
       "type": "Feature-slider",
       "settings": {
         "collection_main": "wood-sign",
-        "collection_limit": 4,
+        "collection_limit": 7,
         "bg": "",
         "title": "WOOD SIGNS",
         "img_width": 300,
