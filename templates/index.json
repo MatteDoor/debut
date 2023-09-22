@@ -158,7 +158,7 @@
       "settings": {
         "collection_main": "doormats",
         "collection_limit": 50,
-        "bg": "",
+        "bg": "#ebebeb",
         "title": "DOORMATS",
         "img_width": 300,
         "cell_align": "left",
