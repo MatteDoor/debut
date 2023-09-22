@@ -165,7 +165,7 @@
         "title_mb": 48,
         "cell_width": "25%",
         "wrap_around": "true",
-        "mr": 9
+        "mr": 10
       }
     },
     "7e1a56f0-a245-4dab-aa82-8fd595ea4270": {
@@ -175,6 +175,21 @@
         "collection_limit": 4,
         "bg": "",
         "title": "WOOD SIGN",
+        "img_width": 300,
+        "cell_align": "center",
+        "title_mb": 48,
+        "cell_width": "25%",
+        "wrap_around": "true",
+        "mr": 10
+      }
+    },
+    "4360974d-c05b-4fa3-a0db-261d9b1fc548": {
+      "type": "Feature-slider",
+      "settings": {
+        "collection_main": "wall-art",
+        "collection_limit": 4,
+        "bg": "",
+        "title": "WALL DECOR",
         "img_width": 300,
         "cell_align": "center",
         "title_mb": 48,
@@ -244,6 +259,7 @@
     "collection",
     "ee852c41-4326-43ba-a803-b2751e9486bd",
     "7e1a56f0-a245-4dab-aa82-8fd595ea4270",
+    "4360974d-c05b-4fa3-a0db-261d9b1fc548",
     "08f0939e-3a29-4f1f-b924-240defee0e7b",
     "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc",
     "85c34915-ddd4-4eca-85f8-27bd4a2007fc"
