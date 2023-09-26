@@ -11,7 +11,7 @@
     "favicon": "shopify:\/\/shop_images\/PP.png",
     "currency_code_enabled": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/Shopify_Logo.png",
-    "checkout_logo_position": "right",
+    "checkout_logo_position": "center",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ebebeb",
     "checkout_button_color": "#1773b0",
