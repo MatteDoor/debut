@@ -25,7 +25,7 @@
     <div id="{{ wrapper_id }}" class="grid-view-item__image-wrapper product-card__image-wrapper js">
       <div style="padding-top:{% unless preview_image == blank %}{{ 1 | divided_by: preview_image.aspect_ratio | times: 100 }}%{% else %}100%{% endunless %};">
         {% capture image_size %}{{ max_height }}x{{ max_height }}{% endcapture %}
-        <img class="grid-view-item__image" src="{{ preview_image | img_url: image_size, scale: 2 }}" width="auto" height="auto" loading="lazy" alt="{{ preview_image.alt }}" style="max-width: {{ max_height | times: preview_image.aspect_ratio }}px;">
+        <img class="grid-view-item__image" src="{{ preview_image | img_url: image_size, scale: 2 }}" width="auto" height="auto" alt="{{ preview_image.alt }}" style="max-width: {{ max_height | times: preview_image.aspect_ratio }}px;">
       </div>
     </div>
   </div>
