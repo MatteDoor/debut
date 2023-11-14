@@ -46,7 +46,7 @@
         "slideshow_height": "adapt",
         "text_size": "medium",
         "text_alignment": "center center",
-        "show_overlay": false,
+        "show_overlay": true,
         "autorotate": true,
         "autorotate_speed": 5
       }
