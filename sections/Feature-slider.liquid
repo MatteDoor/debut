@@ -38,12 +38,13 @@ data-flickity='{
 {% assign price = first_variant.price %}
 {% assign compare_at_price = first_variant.compare_at_price %}
 <div class="carousel__cell" style="width:{{ section.settings.cell_width }};margin-right:{{ section.settings.mr }}px">
-<a href="{{ product.url }}">
-<img src="{{ featured_img_src | img_url: img_width }}" alt="{{ product.featured_img.alt }}" />
-</a>
-<a href="{{ product.url }}">
-<h5>{{ product.title }}</h5>
-</a>
+  <a href="{{ product.url }}" id="{{ product.handle }}-image-link">
+    <img src="{{ featured_img_src | img_url: img_width }}" alt="{{ product.featured_img.alt }}" />
+  </a>
+  <a href="{{ product.url }}" id="{{ product.handle }}-title-link">
+    <h5>{{ product.title }}</h5>
+  </a>
+</div>
 {% if compare_at_price > price %}
 <s class="product__compare-at-price">{{ compare_at_price | money }}</s>
 <p class="product__product-price">{{ price | money }}</p>
