@@ -124,7 +124,7 @@
       <ul class="payment-icons list--inline site-footer__icon-list">
         {%- for type in shop.enabled_payment_types -%}
           {%- capture aria_label -%}
-            {{ type | t: 'aria_payment_method_label' }}
+            {{ type | t: 'aria_payment_method_label', default: 'Payment Method' }}
           {%- endcapture -%}
           {%- capture id_value -%}
             {{ 'pi-' | append: type | handleize }}
