@@ -123,14 +123,11 @@
       <span class="visually-hidden">{{ 'general.payment.method' | t }}</span>
       <ul class="payment-icons list--inline site-footer__icon-list">
         {%- for type in shop.enabled_payment_types -%}
-          {%- capture aria_label -%}
-            {{ type | t: 'aria_payment_method_label', default: 'Payment Method' }}
-          {%- endcapture -%}
           {%- capture id_value -%}
-            {{ 'pi-' | append: type | handleize }}
+            {{ 'pi-' | append: type | handleize | prepend: 'payment-icon-' }}
           {%- endcapture -%}
-          <li class="payment-icon" aria-labelledby="{{ id_value }}">
-            {{ type | payment_type_svg_tag: class: 'icon icon--full-color', id: id_value }}
+          <li class="payment-icon" id="{{ id_value }}" aria-labelledby="{{ id_value }}">
+            {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
           </li>
         {%- endfor -%}
       </ul>
