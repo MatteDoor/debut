@@ -126,8 +126,11 @@
           {%- capture aria_label -%}
             {{ type | t: 'aria_payment_method_label' }}
           {%- endcapture -%}
-          <li class="payment-icon" aria-label="{{ aria_label }}">
-            {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+          {%- capture id_value -%}
+            {{ 'pi-' | append: type | handleize }}
+          {%- endcapture -%}
+          <li class="payment-icon" aria-labelledby="{{ id_value }}">
+            {{ type | payment_type_svg_tag: class: 'icon icon--full-color', id: id_value }}
           </li>
         {%- endfor -%}
       </ul>
