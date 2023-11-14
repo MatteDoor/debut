@@ -127,7 +127,7 @@
             {{ 'pi-' | append: type | handleize | prepend: 'payment-icon-' }}
           {%- endcapture -%}
           <li class="payment-icon" id="{{ id_value }}" aria-labelledby="{{ id_value }}">
-            {{ type | payment_type_svg_tag: class: 'custom-class' }}
+            {{ type | payment_type_svg_tag }}
           </li>
         {%- endfor -%}
       </ul>
