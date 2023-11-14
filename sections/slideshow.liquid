@@ -92,14 +92,6 @@
                style="width: {{- arrows_width -}}px">
             <button class="slideshow__arrow slideshow__arrow-previous" aria-label="{{ 'sections.slideshow.previous_slide' | t }}" data-slider-button>{% render 'icon-chevron-left' %}</button>
             <button class="slideshow__arrow slideshow__arrow-next" aria-label="{{ 'sections.slideshow.next_slide' | t }}" data-slider-button data-slider-button-next>{% render 'icon-chevron-right' %}</button>
-
-            <ul class="slick-dots" data-slider-indicators>
-              {%- for block in section.blocks -%}
-                <li{% if forloop.first %} class="slick-active"{% endif %} data-slider-indicator>
-                  <a href="#Slideshow-{{ section.id }}" aria-label="{{ 'sections.slideshow.load_slide' | t: slide_number: forloop.index }}" data-slide-number="{{ forloop.index0 }}" aria-controls="slickSlide-{{ block.id }}"></a>
-                </li>
-              {%- endfor -%}
-            </ul>
           </div>
 
           {%- if section.settings.autorotate -%}
@@ -122,14 +114,6 @@
         <div class="slideshow__arrows slideshow__arrows--mobile">
           <button class="slideshow__arrow slideshow__arrow-previous" aria-label="{{ 'sections.slideshow.previous_slide' | t }}" data-slider-button>{% render 'icon-chevron-left' %}</button>
           <button class="slideshow__arrow slideshow__arrow-next" aria-label="{{ 'sections.slideshow.next_slide' | t }}" data-slider-button data-slider-button-next>{% render 'icon-chevron-right' %}</button>
-
-          <ul class="slick-dots" data-slider-indicators>
-            {%- for block in section.blocks -%}
-                <li{% if forloop.first %} class="slick-active"{% endif %} data-slider-indicator>
-                  <a href="#Slideshow-{{ section.id }}" aria-label="{{ 'sections.slideshow.load_slide' | t: slide_number: forloop.index }}" data-slide-number="{{ forloop.index0 }}" aria-controls="slickSlide-{{ block.id }}"></a>
-                </li>
-              {%- endfor -%}
-          </ul>
         </div>
       {% endif %}
 
