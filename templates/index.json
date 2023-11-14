@@ -46,7 +46,7 @@
         "slideshow_height": "adapt",
         "text_size": "medium",
         "text_alignment": "center center",
-        "show_overlay": true,
+        "show_overlay": false,
         "autorotate": true,
         "autorotate_speed": 5
       }
@@ -129,39 +129,6 @@
         "text": "<p>Welcome to our online store! Discover unique doormats, wall decorations, and wood signs to add charm to your spaces. Elevate your home's personality with our handpicked collection. Find the perfect blend of style and functionality today.<\/p>",
         "text_size": "large"
       }
-    },
-    "85c34915-ddd4-4eca-85f8-27bd4a2007fc": {
-      "type": "collection-list",
-      "blocks": {
-        "template--21060377182529__85c34915-ddd4-4eca-85f8-27bd4a2007fc-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "doormats"
-          }
-        },
-        "template--21060377182529__85c34915-ddd4-4eca-85f8-27bd4a2007fc-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "wood-sign"
-          }
-        },
-        "template--21060377182529__85c34915-ddd4-4eca-85f8-27bd4a2007fc-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "wall-art"
-          }
-        }
-      },
-      "block_order": [
-        "template--21060377182529__85c34915-ddd4-4eca-85f8-27bd4a2007fc-featured_collection-1",
-        "template--21060377182529__85c34915-ddd4-4eca-85f8-27bd4a2007fc-featured_collection-2",
-        "template--21060377182529__85c34915-ddd4-4eca-85f8-27bd4a2007fc-featured_collection-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Collection",
-        "grid": 3
-      }
     }
   },
   "order": [
@@ -171,7 +138,6 @@
     "4360974d-c05b-4fa3-a0db-261d9b1fc548",
     "collection",
     "08f0939e-3a29-4f1f-b924-240defee0e7b",
-    "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc",
-    "85c34915-ddd4-4eca-85f8-27bd4a2007fc"
+    "af42c02d-eecf-4778-9e9d-e45f9e1ea3cc"
   ]
 }
