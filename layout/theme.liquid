@@ -240,3 +240,7 @@
   </ul>
 </body>
 </html>
+
+<!--Lazy Loading -->
+{{ "lazysizes.min.js" | asset_url | script_tag }}
+<style>.lazyload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:opacity.3s}</style>
