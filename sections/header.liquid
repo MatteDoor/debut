@@ -89,9 +89,10 @@
                    style="max-width: {{ section.settings.logo_max_width }}px">
               <noscript>
                 {% capture image_size %}{{ section.settings.logo_max_width | escape }}x{% endcapture %}
-                <img src="{{ section.settings.logo | img_url: image_size }}"
+                <img data-src="{{ section.settings.logo | img_url: image_size }}"
                      srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
                     
+                     class="lazyload"
                      width="auto"
                      height="auto"
                      alt="{{ section.settings.logo.alt | default: shop.name }}"
