@@ -39,7 +39,7 @@ data-flickity='{
 {% assign compare_at_price = first_variant.compare_at_price %}
 <div class="carousel__cell" style="width:{{ section.settings.cell_width }};margin-right:{{ section.settings.mr }}px">
 <a href="{{ product.url }}">
-<img src="{{ featured_img_src | img_url: img_width }}" alt="{{ product.featured_img.alt }}" />
+<img data-src="{{ featured_img_src | img_url: img_width }}" class="lazyload" alt="{{ product.featured_img.alt }}" />
 </a>
 <a href="{{ product.url }}">
 <h5>{{ product.title }}</h5>
@@ -62,7 +62,7 @@ data-flickity='{
 <div class="carousel__cell" style="width:{{ section.settings.cell_width }};margin-right:{{ section.settings.mr }}px">
 {% if block.settings.featured_product != blank %}
 <a href="{{ block_product.url }}">
-<img src="{{ featured_img_src | img_url: img_width }}" alt="{{ block_product.featured_img.alt }}" />
+<img data-src="{{ featured_img_src | img_url: img_width }}" class="lazyload" alt="{{ block_product.featured_img.alt }}" />
 </a>
 {% else %}
 {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
