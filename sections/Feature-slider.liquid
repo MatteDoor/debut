@@ -39,7 +39,7 @@ data-flickity='{
 {% assign compare_at_price = first_variant.compare_at_price %}
 <div class="carousel__cell" style="width:{{ section.settings.cell_width }};margin-right:{{ section.settings.mr }}px">
 <a href="{{ product.url }}">
-<img data-src="{{ featured_img_src | img_url: img_width }}" class="lazyload" alt="{{ product.featured_img.alt }}" width="600" style="max-width: 100%;" />
+<img data-src="{{ featured_img_src | img_url: img_width }}" alt="{{ product.featured_img.alt }}" width="600" style="max-width: 100%;" />
 </a>
 <a href="{{ product.url }}">
 <h5>{{ product.title }}</h5>
