@@ -38,7 +38,7 @@
         {%- for block in section.blocks -%}
           {%- assign block_image = block.settings.image -%}
           <div id="slickSlide-{{ block.id }}" class="slideshow__slide slideshow__slide--{{ block.id }}{% if forloop.first %} slideshow__slide--active{% endif %}" data-slider-slide-index="{{ forloop.index0 }}" data-slider-item {{ block.shopify_attributes }}>
-            <div class="slideshow__image"{% if block_image %}{% unless block_image.alt == blank %} role="img" aria-label="{{ block_image.alt | escape }}"{% endunless %} style="background-image: url('{{ block_image | img_url: '2048x' }}'); background-position: {{ block.settings.alignment }};"{% endif %}>
+            <div class="slideshow__image"{% if block_image %}{% unless block_image.alt == blank %} role="img" loading="lazy" aria-label="{{ block_image.alt | escape }}"{% endunless %} style="background-image: url('{{ block_image | img_url: '2048x' }}'); background-position: {{ block.settings.alignment }};"{% endif %}>
               {% if block_image == blank %}
                 <div class="placeholder-background">
                   {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
