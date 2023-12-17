@@ -28,7 +28,7 @@
 
     {% if section.settings.show_collection_image and collection.image %}
       <div class="collection-hero">
-        <div class="collection-hero__image" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
+        <div class="collection-hero__image" loading="lazy" style="background-image: url({{ collection.image | img_url: '2048x600', crop: 'top' }});"></div>
         <div class="collection-hero__title-wrapper">
           <h1 class="collection-hero__title page-width">
               <span class="visually-hidden">{{ 'collections.general.collection_label' | t }}: </span>
